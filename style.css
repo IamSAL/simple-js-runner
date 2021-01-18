@@ -1,0 +1,48 @@
+
+  #editor {
+    padding: 10px;
+    position: relative;
+    height: 83vh;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  label {
+    color: white;
+  }
+
+  input,
+  textarea {
+    background-color: rgb(54, 54, 54) !important;
+    color: white
+  }
+
+  #clear {
+      margin-top: 8px;
+    margin-left: 3%;
+    background-color:rgb(58, 58, 58);
+    color: grey ;
+  }
+
+  #out {
+    overflow: auto;
+    font-weight: normal;
+    color: white;
+    resize: none;
+    padding: 10px;
+    height: 66vh;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+  }
+
+  body {
+    overflow-x: hidden;
+    font-family: "Montserrat" !important;
+    font-weight: lighter !important;
+    margin: unset;
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
+  
